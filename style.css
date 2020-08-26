@@ -96,12 +96,14 @@ ul li h2 {
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 10px;
+  word-wrap:break-word;
 }
 
 ul li p {
   font-family: "Reenie Beanie", cursive;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+  word-wrap:break-word;
 }
 
 .delete {
