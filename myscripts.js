@@ -138,7 +138,7 @@ if ("serviceWorker" in navigator) {
     let noteTitle = window.localStorage.key(i);
     let noteBody = window.localStorage.getItem(noteTitle);
     let dateStamp = window.localStorage.getItem("date");
-    if (noteTitle !== "count" && noteTitle && noteTitle !== "date" && noteTitle !== "randid") {
+    if (noteTitle !== "count" && noteTitle && noteTitle !== "date" && noteTitle !== "randid" && noteTitle !== "hasCodeRunBefore") {
       createNote(noteTitle, noteBody, dateStamp);
     }
   }
