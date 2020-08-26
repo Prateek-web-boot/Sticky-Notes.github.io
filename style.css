@@ -96,13 +96,12 @@ ul li h2 {
   font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 10px;
-  word-wrap: break-word;
 }
 
 ul li p {
   font-family: "Reenie Beanie", cursive;
   font-size: 1.1rem;
-  word-wrap: break-word;
+  margin-bottom: 1rem;
 }
 
 .delete {
@@ -168,6 +167,12 @@ ol li {
 
 ol li a {
   color: #fff;
+}
+
+.date {
+  position: absolute; 
+   bottom: 0.5rem; 
+  font-weight: lighter;
 }
 
 @media only screen and (max-width: 600px) {
