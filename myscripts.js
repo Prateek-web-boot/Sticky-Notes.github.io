@@ -1,5 +1,10 @@
-window.onload = () => {
-  alert('HOW TO GET STARTED --->\n\nThis is a Sticky Note Web app where you can create your important notes and also delete them.\n This web app is installable on your mobile and computer, you just need to Follow these steps:-\n1. Click on three vertical dots on top right corner of browser.\n2. Click on Add To Home screen Option.\n3. Select ADD option.\nBOOM! YOU JUST INSTALLED THE APPICATION.\n\nThis web app also has a feature of offline operation i.e(no internet usage) and your data always remain saved, you can modify as per your needs.\n\n-Prateek Gupta');
+window.onload = function () {
+  if (localStorage.getItem("hasCodeRunBefore") === null) {
+      /** Your code here. **/
+      alert('HOW TO GET STARTED --->\n\nThis is a Sticky Note Web app where you can create your important notes and also delete them.\n\n This web app is installable on your mobile and computer, you just need to Follow these steps:-\n1. Click on three vertical dots on top right corner of browser.\n2. Click on Add To Home screen Option.\n3. Select ADD option.\nBOOM! YOU JUST INSTALLED THE APPICATION.\n\nThis web app also has a feature of offline operation i.e(no internet usage) and your data always remain saved, you can modify as per your needs.\n\n-Prateek Gupta');
+
+      localStorage.setItem("hasCodeRunBefore", true);
+  }
 }
 
 if ("serviceWorker" in navigator) {
